@@ -8,10 +8,10 @@ function changeImage(ele) {
     var a;
     if (checked) {
       checked = false
-      a = "/render/file.act?path=admissions/_img/logo-check-list.png";
+      a = "_img/logo-check-list.png";
     } else {
       checked = true
-      a = "/render/file.act?path=admissions/_img/logo-check-list-checked.png";
+      a = "_img/logo-check-list-checked.png";
     }
     document.getElementById(id).src = a;
   }
