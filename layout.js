@@ -4,7 +4,7 @@ Present on pages: https://www.csupueblo.edu/admissions/apply-now.html
 */
 function changeImage(ele) {
     var id = ele.id;
-    var checked = (ele.src.includes("checked"))?true:false;
+    var checked = (ele.src.includes("active"))?true:false;
     var a;
     if (checked) {
       checked = false
