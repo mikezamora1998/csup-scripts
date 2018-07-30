@@ -36,3 +36,30 @@ img.checkbox{
 .checklist-item{
     max-height: 40;
 }
+
+.dropdown{
+    margin-left: 60px; 
+    margin-bottom: 18px;
+}
+
+div.dropdown{
+    display: none; 
+    margin-left: 60px;
+}
+
+div.dropdown-text{
+    display: none; margin-left: 60px; margin-bottom: 18px;
+}
+
+.dropdown-text-first{
+    padding: 15px; 
+    margin-bottom: 0px !important;
+}
+
+.dropdown-text{
+    padding: 15px;
+}
+
+.content{
+    margin-left: 60px;
+}
