@@ -8,10 +8,10 @@ function changeImage(ele) {
     var a;
     if (checked) {
       checked = false
-      a = "_img/logo-check-list.png";
+      a = "https://mikezamora1998.github.io/csup-scripts/img/checkbox.png";
     } else {
       checked = true
-      a = "_img/logo-check-list-checked.png";
+      a = "https://mikezamora1998.github.io/csup-scripts/img/checkbox-active.png";
     }
     document.getElementById(id).src = a;
   }
@@ -27,3 +27,5 @@ function changeImage(ele) {
          document.getElementById(id +"Text").style.backgroundColor = '#ffffff';
      }
 }
+
+//  /render/file.act?path=admissions/_img/logo-check-list.png
