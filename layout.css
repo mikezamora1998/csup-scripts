@@ -42,12 +42,12 @@ img.checkbox{
     margin-bottom: 18px;
 }
 
-div.dropdown{
+.div-dropdown{
     display: none; 
     margin-left: 60px;
 }
 
-div.dropdown-text{
+.div-dropdown-text{
     display: none; margin-left: 60px; margin-bottom: 18px;
 }
 
