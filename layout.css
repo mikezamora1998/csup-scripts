@@ -1,0 +1,38 @@
+/* 
+Usage: <style media="all" type="text/css"> @import url("https://mikezamora1998.github.io/csup-scripts/layout.css"); </style>
+Present on pages: https://www.csupueblo.edu/admissions/apply-now.html 
+*/
+
+.content .content-main ul.checklist li:before {
+    content: '';
+    margin-right: 6px;
+}
+
+.checklist:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+.checklist{
+    padding-left: 0px !important;
+    /*background-color:#f7f7f7;*/
+    padding:.5rem;
+    margin:.5rem 0;        
+    }
+img.checkbox{
+    float:left;
+    margin-right: 1.5rem;
+    margin-bottom:0px !important;
+    }
+.checklist{
+    margin-left: 0px !important;
+    line-height:1rem;
+    margin:0 !important;
+    
+    }
+.accordion .checklist ul li{
+    background:transparent;
+    }
+.checklist-item{
+    max-height: 40;
+}
